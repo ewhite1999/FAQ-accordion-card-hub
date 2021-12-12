@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | FAQ Accordion Card</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -29,14 +29,18 @@
     <div class="container">
       <div class="card">
         <div class="img_cont">
-          <img src="./images/illustration-woman-online-mobile.svg" alt="" />
-          <img src="./images/bg-pattern-mobile.svg" alt="" />
+          <img
+            class="img_main"
+            src="./images/illustration-woman-online-mobile.svg"
+            alt=""
+          />
+          <img class="img_shadow" src="./images/bg-pattern-mobile.svg" alt="" />
         </div>
         <div class="content">
-          <h1>FAQ</h1>
+          <h1 class="dark title">FAQ</h1>
           <div class="drop_down_container">
             <h2 class="drop_down_title">How many team members can I invite?</h2>
-            <p class="drop_down_content">
+            <p class="drop_down_content hidden">
               You can invite up to 2 additional users on the Free plan. There is
               no limit on team members for the Premium plan.
             </p>
@@ -45,28 +49,28 @@
             <h2 class="drop_down_title">
               What is the maximum file upload size?
             </h2>
-            <p class="drop_down_content">
+            <p class="drop_down_content hidden">
               No more than 2GB. All files in your account must fit your allotted
               storage space.
             </p>
           </div>
           <div class="drop_down_container">
             <h2 class="drop_down_title">How do I reset my password?</h2>
-            <p class="drop_down_content">
+            <p class="drop_down_content hidden">
               Click “Forgot password” from the login page or “Change password”
               from your profile page. A reset link will be emailed to you.
             </p>
           </div>
           <div class="drop_down_container">
             <h2 class="drop_down_title">Can I cancel my subscription?</h2>
-            <p class="drop_down_content">
+            <p class="drop_down_content hidden">
               Yes! Send us a message and we’ll process your request no questions
               asked.
             </p>
           </div>
           <div class="drop_down_container">
             <h2 class="drop_down_title">Do you provide additional support?</h2>
-            <p class="drop_down_content">
+            <p class="drop_down_content hidden">
               Chat and email support is available 24/7. Phone lines are open
               during normal business hours.
             </p>
