@@ -10,7 +10,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -29,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-using-vanilla-css-ui6phmAWN)
-- Live Site URL: [GitHub Pages](https://ewhite1999.github.io/nft-preview-card-component-main/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordion-using-sass-and-js-Mh4LfB5-b)
+- Live Site URL: [GitHub Pages](https://ewhite1999.github.io/FAQ-accordion-card-hub/)
 
 ## My process
 
@@ -38,52 +37,8 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Vanilla CSS
+- Sass
 - Flexbox
-
-### What I learned
-
-The main things I learnt/had to look up in this project are:
-
-- Box sizing needs to be set like this to apply to everything:
-
-```css
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-:root {
-  box-sizing: border-box;
-}
-```
-
-- How to center an image without absolute positioning:
-
-```css
-.container {
-  position: relative;
-}
-.absolute_center {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-```
-
-- How to overlay a colour on an image when overed:
-
-```css
-.img_container {
-  background-color: var(--overlay_colour);
-  line-height: 0;
-}
-.img_container img:hover {
-  opacity: 0.5;
-}
-```
 
 ## Author
 
