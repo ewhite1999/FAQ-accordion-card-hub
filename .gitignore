@@ -16,3 +16,6 @@
 
 .prettierignore
 *.md
+.vscode
+*.map
+*.scss
